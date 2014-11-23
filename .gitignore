@@ -1,0 +1,16 @@
+# un comentario, este es ignorado
+# no .a archivos
+*.a
+# pero trackea lib.a, incluso aunque estes ignorando los archivos .a
+!lib.a
+# solamente ignora la carpeta raiz todo, no los subdirectorios de todo
+/TODO
+# ignora todos los archivos en el directorio build/
+build/
+# ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt
+# ignore all .txt files in the doc/ directory
+doc/**/*.txt
+# ignora todos los archivos en el directorio logs y tmp
+logs/
+tmp/
